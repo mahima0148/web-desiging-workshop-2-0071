@@ -8,7 +8,7 @@ body {
 /* OUTER BOX (grey area + black border) */
 .outer-box {
     background-color: #dcdcdc;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
 
     margin: 40px 60px;   /* 👈 SIDE SPACE CONTROL (yahi main cheez hai) */
     padding: 60px 0;
