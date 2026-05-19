@@ -1,0 +1,24 @@
+{
+  "name": "web-dev-2nd-sem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahima0148/web-desiging-workshop-2-0071.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahima0148/web-desiging-workshop-2-0071/issues"
+  },
+  "homepage": "https://github.com/mahima0148/web-desiging-workshop-2-0071#readme",
+  "dependencies": {
+    "lodash": "^4.18.1"
+  }
+}
