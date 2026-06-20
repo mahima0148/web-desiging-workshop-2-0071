@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Even Odd Checker</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#e8f0ff;
+    text-align:center;
+}
+
+.box{
+    width:350px;
+    margin:100px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+input{
+    padding:10px;
+    width:80%;
+    margin:10px;
+}
+
+button{
+    padding:10px 20px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+#result{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="box">
+
+<h2>Even Odd Number Checker</h2>
+
+
+<input type="number" id="num" placeholder="Enter Number">
+
+
+<br>
+
+<button onclick="checkNumber()">Check</button>
+
+
+<div id="result"></div>
+
+
+</div>
+
+
+
+<script>
+
+function checkNumber(){
+
+let number = document.getElementById("num").value;
+
+
+if(number==""){
+    document.getElementById("result").innerHTML="Enter a number";
+    return;
+}
+
+
+if(number % 2 == 0){
+
+document.getElementById("result").innerHTML =
+number + " is Even Number";
+
+}
+
+else{
+
+document.getElementById("result").innerHTML =
+number + " is Odd Number";
+
+}
+
+
+}
+
+</script>
+
+
+</body>
+</html>
